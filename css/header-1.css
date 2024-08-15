@@ -1,0 +1,194 @@
+header-1{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    .top{
+        width: calc(100% - 270px);
+        height: 60px;
+        margin: 0px auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        .right{
+            width: 45%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2%;
+            .logo{
+                width: fit-content;
+                height: 100%;
+                & a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .search{
+                width: calc(100% - 135px);
+                height: 100%;
+                display: flex;
+                align-items: center;
+                & form{
+                    width: 100%;
+                    height: 44px;
+                    background-color: #F0F0F1;
+                    border-radius: 8px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    column-gap: 15px;
+                    padding: 0px 16px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    -ms-border-radius: 8px;
+                    -o-border-radius: 8px;
+                    & label{
+                        display: flex;
+                        height: 100%;
+                        align-items: center;
+                    }
+                    & input{
+                        width: calc(100% - 39px);
+                        background-color: transparent;
+                        border: 0;
+                        outline: unset;
+                        font-size: 14px;
+                        &::placeholder{
+                            font-family: Iran;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .left{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            column-gap: 5px;
+            align-items: center;
+            .register{
+                width: fit-content;
+                height: 40px;             
+                font-size: 12px;
+                border: 1px solid #EFEFF0;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                & a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    padding: 5px 16px;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    column-gap: 10px;
+                    border-radius: 8px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    -ms-border-radius: 8px;
+                    -o-border-radius: 8px;
+                    text-decoration: none;
+                    color: black;
+                    .logo{
+                        padding-top: 3px;
+                    }
+                }
+            }
+            & span{
+                width: 1px;
+                height: 24px;
+                display: block;
+                background-color: #E0E0E2;
+            } 
+            .shop{
+                display: flex;
+                height: 100%;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+        }
+    }
+    .bottom{
+        width: calc(100% - 270px);
+        height: calc(100% - 60px);
+        margin: 0 auto;
+        .menu{
+            height: 100%;
+            & nav{
+                height: 100%;
+                & ul{
+                    height: 100%;
+                    list-style: none;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    column-gap: 10px;
+                    padding-bottom: 10px;
+                    & li{
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        & a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                        .subMenu{
+                            width: 50%;
+                            height: 800px;
+                            /* background-color: deeppink; */
+                            position: absolute;
+                            display: none;
+                            top: 110px;
+                            .right-menu{
+                                width: 20%;
+                                height: 100%;
+                                /* background-color: aqua; */
+                                & ul{
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                    /* background-color: crimson; */
+                                    & li{
+                                        width: 100%;
+                                        height: 50px;
+                                        text-align: center;
+                                        line-height: 50px;
+                                        .left{
+                                            width: 80%;
+                                            height: 100%;
+                                            /* background-color: blueviolet; */
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            display: flex;
+                                            column-gap: 5px;
+                                            & div{
+                                                width: 24%;
+                                                height: 100%;
+                                                /* background-color: lime; */
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        /* &:hover{
+                            .subMenu{
+                                display: block;
+                            }
+                        } */
+                    }
+                }
+            } 
+        }
+    }
+}

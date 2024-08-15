@@ -1,0 +1,17 @@
+.products{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 142px 35px 155px;
+    .product-1 , .product-2 , .product-3 , .product-4 , .product-5 , .product-6 , .product-7 , .product-8{
+        font-size: 12px;
+        text-align: center;
+        margin-right: 47px;
+        width: 100px;
+        & img{
+            height: 100px;
+            width: 100px;
+        }
+    
+    }
+} 
+

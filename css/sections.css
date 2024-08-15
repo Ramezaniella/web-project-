@@ -1,0 +1,59 @@
+.sections{
+    display: flex;
+    flex-direction: row;
+    background-color: #D52D4E;
+    margin: 0px 96px 18px 95px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px;
+    .section-1 , .section-2 , .section-3 , .section-4 , .section-5 , .section-6{
+        text-align: center;
+        height: 257px;
+        width: 216px;  
+        background-color: white;
+        border-left: 4px solid #D52D4E;
+        & h2{
+            font-size: 10px;
+        }
+        & img{
+            height: 132px;
+            width: 132px;
+            margin-top: 12px;
+        }
+        .cost{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding: 15px 8px 0px 10px;
+            .price{
+                font-size: 16px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .takhfif{
+                background-color: #D32F2F;
+                font-size: 12px;
+                color: white;
+                padding: 3px 12px 0px 12px;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
+        .gheymat{
+            color: #D7D8DA;
+            font-size: 12px;
+            text-decoration: line-through;
+            text-align: left;
+            padding: 10px 0px 0px 29px;
+        }
+    }      
+}
+
+
+

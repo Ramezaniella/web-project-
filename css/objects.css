@@ -1,0 +1,64 @@
+.objects{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 96px 18px 96px;
+    border: 1px solid #EFEFF0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-top: 76px;
+    padding-bottom: 8px;
+    height: 464px;   
+    .object-1 , .object-2 , .object-3 , .object-4 , .object-5 , .object-6{
+        padding-top: 40px;
+        text-align: center;
+        width: 216px;  
+        height: 353px;
+        border-left: 1px solid #EFEFF0;
+        & p{
+            font-size: 13px;
+            text-align: right;
+            padding-right: 34px;
+        }
+        & img{
+            height: 150px;
+            width: 150px;
+        }
+        .cost{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            padding-right: 30px;
+            margin-top: 50px;
+            .price{
+                font-size: 16px;
+                margin: 0px;
+                padding-left: 15px;
+                & svg{
+                padding-top: 3px;
+                padding-left: 3px;
+                }
+            }
+            .takhfif{
+                background-color: #D32F2F;
+                font-size: 12px;
+                color: white;
+                padding: 3px 12px 0px 12px;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
+        .gheymat{
+            color: #D7D8DA;
+            font-size: 12px;
+            text-decoration: line-through;
+            text-align: left;
+            padding-left: 28px;
+        }
+    }      
+}

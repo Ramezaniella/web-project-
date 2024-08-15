@@ -1,0 +1,15 @@
+.daste{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 63px 21px 90px;
+    .daste-1 , .daste-2 , .daste-3 , .daste-4 , .daste-5 , .daste-6 , .daste-7 , .daste-8{
+        font-size: 12px;
+        text-align: center;
+        margin-right: 100px;
+        width: 100px;
+        & img{
+            height: 100px;
+            width: 100px;
+        }
+   }   
+} 

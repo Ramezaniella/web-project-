@@ -1,0 +1,29 @@
+.icons{
+    display: flex; 
+    flex-direction: row;
+    padding: 26px 96px 5px 96px;
+    text-align: center;
+    .icon-1 , .icon-2 , .icon-3 , .icon-4 , .icon-5 , .icon-6 , .icon-7 , .icon-8 , .icon-9 , .icon-10{
+        padding-left: 40px;
+        padding-right: 40px;
+        & img{
+            height: 52px;
+            width: 52px;
+        }
+        & span{
+            font-size: 12px;  
+        }
+    }
+} 
+.icons .icon-10 .svg{
+    width: 52px;
+    height: 52px;
+    background-color: #F0F0F1;
+    border-radius:125px;
+    -webkit-border-radius:125px;
+    -moz-border-radius:125px;
+    -ms-border-radius:125px;
+    -o-border-radius:125px;
+    padding-top: 15px;
+    margin-bottom: 8px;
+}  

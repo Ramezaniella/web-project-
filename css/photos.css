@@ -1,0 +1,15 @@
+.photos{
+    display: flex;
+    flex-direction: row;
+    margin: 28px 97px 12px 90px;
+    & img{
+        height: 201px;
+        width: 323px;
+        margin-left: 11px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }    
+}   

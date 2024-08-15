@@ -1,0 +1,15 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 96px 30px 96px;
+    & img{
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        height: 241px;
+        width: 322px;
+        margin-left: 14px;
+    }    
+}

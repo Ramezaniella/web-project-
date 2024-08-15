@@ -1,0 +1,40 @@
+.brands{
+    display: flex;
+    flex-direction: column;
+    width: 1330px;
+    height: 223px;
+    border: 1px solid #EFEFF0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 17px 95px 18px 0px;
+    .title{
+        font-size: 21px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 21px;
+        & svg{
+            padding-top: 4px;
+        }
+    }
+    .brand{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        .item-1 , .item-2 , .item-3 , .item-4 , .item-5 , .item-6 , .item-7 , .item-8 , .item-9{
+            width: 143px;
+            border-left: 1px solid #EFEFF0;
+            & img{
+                padding-top: 13px;
+                width: 110px;
+                height: 110px;
+            }
+        }
+    }
+}
+
+
+
+
